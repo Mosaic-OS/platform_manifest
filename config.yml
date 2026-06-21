@@ -207,6 +207,7 @@ forked_aosp_repos:
     - platform/system/netd
     - platform/system/sepolicy
     - platform/system/tools/aidl
+    - platform/system/update_engine
     - platform/system/vold
     - platform/tools/apksig
     - platform/tools/metalava
