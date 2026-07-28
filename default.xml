@@ -281,7 +281,6 @@
   <project path="external/igt-gpu-tools" name="platform/external/igt-gpu-tools" groups="pdk"/>
   <project path="external/image_io" name="platform/external/image_io" groups="pdk"/>
   <project path="external/ims" name="platform/external/ims" groups="pdk"/>
-  <project path="external/Info" name="platform_external_Info" groups="pdk-fs" remote="grapheneos" clone-depth="1"/>
   <project path="external/intel-pmt-metadata" name="platform/external/intel-pmt-metadata" groups="pdk"/>
   <project path="external/iperf3" name="platform/external/iperf3" groups="pdk"/>
   <project path="external/iproute2" name="platform/external/iproute2" groups="pdk"/>
@@ -490,7 +489,6 @@
   <project path="external/pcollections" name="platform/external/pcollections" groups="pdk"/>
   <project path="external/pcre" name="platform/external/pcre" groups="pdk"/>
   <project path="external/pdfium" name="platform/external/pdfium" groups="pdk"/>
-  <project path="external/PdfViewer" name="platform_external_PdfViewer" remote="grapheneos" clone-depth="1"/>
   <project path="external/perfetto" name="platform/external/perfetto" groups="pdk,sysui-studio"/>
   <project path="external/perfmark" name="platform/external/perfmark" groups="pdk"/>
   <project path="external/pffft" name="platform/external/pffft" groups="pdk"/>
