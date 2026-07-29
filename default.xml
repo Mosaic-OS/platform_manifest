@@ -15,6 +15,7 @@
   <project path="external/MosaicStore" name="platform_external_MosaicStore" remote="mosaicos" clone-depth="1" />
   <project path="external/PdfViewer" name="platform_external_PdfViewer" remote="mosaicos" clone-depth="1" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="mosaicos" aosp-name="platform/frameworks/base"/>
+  <project path="packages/apps/CellBroadcastReceiver" name="CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="mosaicos" aosp-name="platform/packages/apps/CellBroadcastReceiver"/>
   <project path="packages/apps/Contacts" name="Contacts" groups="pdk-fs" remote="mosaicos" aosp-name="platform/packages/apps/Contacts"/>
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" remote="lineageos" />
   <project path="packages/apps/DeviceDiagnostics" name="DeviceDiagnostics" groups="pdk" remote="mosaicos"/>
@@ -781,7 +782,6 @@
   <project path="packages/apps/Car/VoiceControl" name="platform/packages/apps/Car/VoiceControl" groups="pdk-fs"/>
   <project path="packages/apps/CarrierConfig" name="platform/packages/apps/CarrierConfig" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/CarrierConfig2" name="platform_packages_apps_CarrierConfig2" groups="pdk-cw-fs,pdk-fs" remote="grapheneos"/>
-  <project path="packages/apps/CellBroadcastReceiver" name="platform_packages_apps_CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="grapheneos" aosp-name="platform/packages/apps/CellBroadcastReceiver"/>
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs,pdk-fs"/>
   <project path="packages/apps/ContactsPicker" name="platform/packages/apps/ContactsPicker" groups="pdk-fs"/>
   <project path="packages/apps/DevCamera" name="platform/packages/apps/DevCamera" groups="pdk"/>
