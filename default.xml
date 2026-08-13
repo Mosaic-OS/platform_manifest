@@ -14,6 +14,7 @@
   <project path="external/Info" name="platform_external_Info" groups="pdk-fs" remote="mosaicos" clone-depth="1" />
   <project path="external/MosaicStore" name="platform_external_MosaicStore" remote="mosaicos" clone-depth="1" />
   <project path="external/PdfViewer" name="platform_external_PdfViewer" remote="mosaicos" clone-depth="1" />
+  <project path="external/setupdesign" name="platform_external_setupdesign" groups="pdk,sysui-studio" remote="mosaicos"/>
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="mosaicos" aosp-name="platform/frameworks/base"/>
   <project path="packages/apps/CellBroadcastReceiver" name="CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="mosaicos" aosp-name="platform/packages/apps/CellBroadcastReceiver"/>
   <project path="packages/apps/Contacts" name="Contacts" groups="pdk-fs" remote="mosaicos" aosp-name="platform/packages/apps/Contacts"/>
@@ -579,7 +580,6 @@
   <project path="external/selinux" name="platform_external_selinux" groups="pdk" remote="grapheneos" aosp-name="platform/external/selinux"/>
   <project path="external/setfilters" name="platform/external/setfilters" groups="pdk"/>
   <project path="external/setupcompat" name="platform/external/setupcompat" groups="pdk,sysui-studio"/>
-  <project path="external/setupdesign" name="platform/external/setupdesign" groups="pdk,sysui-studio"/>
   <project path="external/sg3_utils" name="platform/external/sg3_utils" groups="pdk"/>
   <project path="external/shaderc/spirv-headers" name="platform/external/shaderc/spirv-headers" groups="pdk"/>
   <project path="external/shflags" name="platform/external/shflags" groups="pdk"/>
