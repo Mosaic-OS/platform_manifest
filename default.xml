@@ -12,9 +12,11 @@
   <!-- MosaicOS -->
   <project path="external/Camera" name="platform_external_Camera" remote="mosaicos" clone-depth="1"/>
   <project path="external/Info" name="platform_external_Info" groups="pdk-fs" remote="mosaicos" clone-depth="1" />
+  <project path="external/llama.cpp" name="platform_external_llama_cpp" remote="mosaicos" clone-depth="1" />
   <project path="external/MosaicStore" name="platform_external_MosaicStore" remote="mosaicos" clone-depth="1" />
   <project path="external/PdfViewer" name="platform_external_PdfViewer" remote="mosaicos" clone-depth="1" />
   <project path="external/setupdesign" name="platform_external_setupdesign" groups="pdk,sysui-studio" remote="mosaicos"/>
+  <project path="external/whisper_cpp" name="platform_external_whisper_cpp" remote="mosaicos" clone-depth="1" />
   <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="mosaicos" aosp-name="platform/frameworks/base"/>
   <project path="packages/apps/CellBroadcastReceiver" name="CellBroadcastReceiver" groups="pdk-cw-fs,pdk-fs" remote="mosaicos" aosp-name="platform/packages/apps/CellBroadcastReceiver"/>
   <project path="packages/apps/Contacts" name="Contacts" groups="pdk-fs" remote="mosaicos" aosp-name="platform/packages/apps/Contacts"/>
@@ -28,6 +30,7 @@
   <project path="packages/apps/Launcher3" name="Launcher" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="mosaicos" aosp-name="platform/packages/apps/Launcher3"/>
   <project path="packages/apps/LogViewer" name="LogViewer" groups="pdk-fs" remote="mosaicos" />
   <project path="packages/apps/Messaging" name="Messaging" groups="pdk-fs" remote="mosaicos" />
+  <project path="packages/apps/MosaicAssistant" name="MosaicAssistant" remote="mosaicos" />
   <project path="packages/apps/Settings" name="Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" remote="mosaicos" aosp-name="platform/packages/apps/Settings"/>
   <project path="packages/apps/SetupWizard2" name="SetupWizard" remote="mosaicos"/>
   <project path="packages/apps/ThemePicker" name="ThemePicker" groups="pdk-fs,sysui-studio" remote="mosaicos" aosp-name="platform/packages/apps/ThemePicker"/>
