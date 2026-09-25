@@ -131,11 +131,10 @@ additional_non_manifest_repos:
   - kernel_common-6.1
   - kernel_common-6.6
   - kernel_common-6.12
-  - kernel_manifest-6.1
   - kernel_manifest-6.6
   - kernel_manifest-6.12
-  - kernel_pixel
-  - kernel_pixel_muzel
+  - kernel_pixel_6.1
+  - kernel_pixel_6.6
   - platform_manifest
 forked_aosp_repos:
   grapheneos:
@@ -150,20 +149,28 @@ forked_aosp_repos:
     - platform/cts
     - platform/development
     - platform/external/conscrypt
+    - platform/external/exfatprogs
     - platform/external/freetype
+    - platform/external/libcupsfilters
+    - platform/external/libhevc
+    - platform/external/libjxl
     - platform/external/libpng
     - platform/external/protobuf
     - platform/external/selinux
+    - platform/external/wpa_supplicant_8
     - platform/frameworks/av
     - platform/frameworks/base
     - platform/frameworks/libs/systemui
     - platform/frameworks/native
     - platform/frameworks/opt/net/wifi
     - platform/frameworks/opt/telephony
+    - platform/hardware/interfaces
+    - platform/hardware/st/nfc
     - platform/libcore
     - platform/packages/apps/Calendar
     - platform/packages/apps/CellBroadcastReceiver
     - platform/packages/apps/Contacts
+    - platform/packages/apps/ContactsPicker
     - platform/packages/apps/Dialer
     - platform/packages/apps/DocumentsUI
     - platform/packages/apps/EmergencyInfo
@@ -188,6 +195,7 @@ forked_aosp_repos:
     - platform/packages/modules/Permission
     - platform/packages/modules/RemoteKeyProvisioning
     - platform/packages/modules/StatsD
+    - platform/packages/modules/Telephony
     - platform/packages/modules/Uwb
     - platform/packages/modules/Virtualization
     - platform/packages/modules/Wifi
@@ -195,12 +203,16 @@ forked_aosp_repos:
     - platform/packages/providers/DownloadProvider
     - platform/packages/providers/MediaProvider
     - platform/packages/providers/TelephonyProvider
+    - platform/packages/services/BuiltInPrintService
     - platform/packages/services/Mms
     - platform/packages/services/Telecomm
     - platform/packages/services/Telephony
     - platform/system/ca-certificates
     - platform/system/core
     - platform/system/extras
+    - platform/system/fs/fs_mgr
+    - platform/system/libfmq
+    - platform/system/libufdt
     - platform/system/logging
     - platform/system/netd
     - platform/system/sepolicy
@@ -240,13 +252,64 @@ removed_aosp_repos:
   - platform/hardware/nxp/secure_element
   - platform/packages/apps/Browser2
   - platform/packages/apps/Camera2
+  - platform/packages/apps/Car/CalendarPrebuilt
+  - platform/packages/apps/Car/Cluster
+  - platform/packages/apps/Car/DataSubscriptionReference
+  - platform/packages/apps/Car/DebuggingRestrictionController
+  - platform/packages/apps/Car/DialerPrebuilt
+  - platform/packages/apps/Car/DriverUIPrebuilt
+  - platform/packages/apps/Car/LatinIME
+  - platform/packages/apps/Car/LinkViewer
+  - platform/packages/apps/Car/LocalMediaPlayer
+  - platform/packages/apps/Car/MediaPrebuilt
+  - platform/packages/apps/Car/MessengerPrebuilt
+  - platform/packages/apps/Car/Provision
+  - platform/packages/apps/Car/RadioPrebuilt
+  - platform/packages/apps/Car/References
+  - platform/packages/apps/Car/RotaryImePrebuilt
+  - platform/packages/apps/Car/SettingsIntelligence
+  - platform/packages/apps/Car/SystemUpdater
+  - platform/packages/apps/Car/Templates
+  - platform/packages/apps/Car/TemplatesPrebuilt
+  - platform/packages/apps/Car/VoiceControl
   - platform/packages/apps/DeskClock
   - platform/packages/apps/Gallery
   - platform/packages/apps/LegacyCamera
   - platform/packages/apps/Messaging
   - platform/packages/apps/QuickSearchBox
+  - platform/packages/apps/TV
+  - platform/packages/apps/TvFeedbackConsent
+  - platform/packages/providers/TvProvider
   - platform/prebuilts/bazel/darwin-x86_64
   - platform/prebuilts/clang/host/darwin-x86
   - platform/prebuilts/go/darwin-x86
-  - platform/prebuilts/rust-toolchain/darwin
+  - platform/prebuilts/module_sdk/AdServices
+  - platform/prebuilts/module_sdk/AppSearch
+  - platform/prebuilts/module_sdk/Bluetooth
+  - platform/prebuilts/module_sdk/ConfigInfrastructure
+  - platform/prebuilts/module_sdk/Connectivity
+  - platform/prebuilts/module_sdk/CrashRecovery
+  - platform/prebuilts/module_sdk/DeviceLock
+  - platform/prebuilts/module_sdk/HealthFitness
+  - platform/prebuilts/module_sdk/IPsec
+  - platform/prebuilts/module_sdk/Media
+  - platform/prebuilts/module_sdk/MediaProvider
+  - platform/prebuilts/module_sdk/Nfc
+  - platform/prebuilts/module_sdk/NpuManager
+  - platform/prebuilts/module_sdk/OnDevicePersonalization
+  - platform/prebuilts/module_sdk/Permission
+  - platform/prebuilts/module_sdk/Profiling
+  - platform/prebuilts/module_sdk/RemoteKeyProvisioning
+  - platform/prebuilts/module_sdk/Scheduling
+  - platform/prebuilts/module_sdk/SdkExtensions
+  - platform/prebuilts/module_sdk/StatsD
+  - platform/prebuilts/module_sdk/Telephony
+  - platform/prebuilts/module_sdk/UprobeStats
+  - platform/prebuilts/module_sdk/Uwb
+  - platform/prebuilts/module_sdk/WebApp
+  - platform/prebuilts/module_sdk/WebViewBootstrap
+  - platform/prebuilts/module_sdk/Wifi
+  - platform/prebuilts/module_sdk/art
+  - platform/prebuilts/module_sdk/conscrypt
   - platform/prebuilts/qemu-kernel
+  - platform/prebuilts/rust-toolchain/darwin
