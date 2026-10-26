@@ -87,6 +87,22 @@ additional_projects:
     name: platform_external_vanadium
     clone_depth: 1
     remote: grapheneos-gitlab
+  - path: kernel/prebuilts/6.18/arm64
+    name: kernel_prebuilts_6.18_arm64
+    groups: pdk
+    clone_depth: 1
+  - path: kernel/prebuilts/6.18/x86_64
+    name: kernel_prebuilts_6.18_x86-64
+    groups: pdk
+    clone_depth: 1
+  - path: kernel/prebuilts/common-modules/virtual-device/6.18/arm64
+    name: kernel_prebuilts_common-modules_virtual-device_6.18_arm64
+    groups: pdk
+    clone_depth: 1
+  - path: kernel/prebuilts/common-modules/virtual-device/6.18/x86-64
+    name: kernel_prebuilts_common-modules_virtual-device_6.18_x86-64
+    groups: pdk
+    clone_depth: 1
   - path: packages/apps/AppCompatConfig
     name: platform_packages_apps_AppCompatConfig
     groups: pdk-fs
@@ -113,10 +129,6 @@ additional_projects:
     name: platform_packages_apps_SetupWizard2
   - path: packages/apps/Updater
     name: platform_packages_apps_Updater
-  - path: prebuilts/qemu-kernel
-    name: platform_prebuilts_qemu-kernel
-    groups: pdk
-    clone_depth: 1
   - path: script
     name: script
   - path: tools/arsclib
@@ -142,6 +154,7 @@ forked_aosp_repos:
   grapheneos:
     - device/common
     - device/generic/goldfish
+    - device/google/cuttlefish
     - platform/art
     - platform/bionic
     - platform/bootable/recovery
@@ -159,6 +172,7 @@ forked_aosp_repos:
     - platform/external/libhevc
     - platform/external/libjxl
     - platform/external/libpng
+    - platform/external/mesa3d
     - platform/external/protobuf
     - platform/external/selinux
     - platform/external/wpa_supplicant_8
@@ -249,6 +263,10 @@ removed_aosp_repos:
   - device/google/common/etm
   - device/google/contexthub
   - device/google/trout
+  - kernel/prebuilts/6.18/arm64
+  - kernel/prebuilts/6.18/x86-64
+  - kernel/prebuilts/common-modules/virtual-device/6.18/arm64
+  - kernel/prebuilts/common-modules/virtual-device/6.18/x86-64
   - platform/external/chromium-webview
   - platform/external/nos/host/generic
   - platform/hardware/google/av
